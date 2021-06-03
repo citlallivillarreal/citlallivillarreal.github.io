@@ -96,7 +96,7 @@ h2 {
 }
 .skills {
 
-  position: absolute;
+  position: relative;
   color: black;
   margin-top: 50px;
   margin-left: 1050px;
@@ -183,18 +183,78 @@ h2 {
 .skills-ranking {
   width: 20%;
   height: 30%;
-  margin-left: 50px;
+  margin-left: 150px;
+  margin-top: 250px;
+
 }
 
 .skills-container {
+  position: relative;
   box-sizing: border-box;
   width: 100%;
   margin-left: 50px;
-  background-color: grey;
+  background-color: #7e939b;
+
+}
+.skills-ranking p {
+  font-size: 20px;
 }
 
 .Python {
   width: 90%;
-  background-color: black;
-  margin-left: 50px;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.Java {
+  width: 80%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.HTML {
+  width: 80%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.CSS {
+  width: 80%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.SQL {
+  width: 90%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.Splunk {
+  width: 70%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.r {
+  width: 90%;
+  background-color: #bd4944;
+  color: white;
+
+}
+
+.soft-skills p {
+  font-size: 30px;
+
+}
+
+.soft-skills {
+  margin-left: 1100px;
+  margin-top: 50px;
 }
