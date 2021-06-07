@@ -168,10 +168,7 @@ h2 {
   margin-top: 0;
   margin-left: 45%;
 }
-/* .languages {
-  height: 5;
-  width: 200px;
-} */
+
 
 .skills-ranking {
   display: inline-block;
@@ -333,7 +330,7 @@ h2 {
 .contact {
   position: absolute;
   color: grey;
-  margin-top: 50px;
-  margin-left: 1150px;
+  margin-top: 3%;
+  margin-left: 41%;
 
 }
