@@ -52,16 +52,39 @@
         </div>
   </div>
     <div id="projects" class="middle-container-two">
-    <h2 class = "project">PROJECTS</h2>
-    <img class="git" src="https://www.fullstackpython.com/img/logos/git.png" alt="git image">
-    <img class="spotify" src="https://wearecollins.imgix.net/uploads/01_Spotify.gif?auto=format%2Ccompress&dpr=2.63&fit=max&q=90&w=400" alt="spotify image">
-    <img class="password" src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/02/shutterstock_640477099-compressor.jpg" alt="password manager image">
-
-
-<br >
-  <img class="pacman" src="https://media4.giphy.com/media/d9QiBcfzg64Io/giphy.gif" alt="pacman image">
-  <img class="spam" src="  http://penplusbytes.org/wp-content/uploads/2019/08/spam.jpg" alt="spam">
-
+      <h2 class = "project">PROJECTS</h2>
+      <div class="carousel-container">
+        <div class="images fade">
+          <div class="number">1 / 5</div>
+          <img class="git" src="https://www.fullstackpython.com/img/logos/git.png" alt="git image" >
+        </div>
+        <div class="images fade">
+          <div class="number">2 / 5</div>
+          <img class="spotify" src="https://wearecollins.imgix.net/uploads/01_Spotify.gif?auto=format%2Ccompress&dpr=2.63&fit=max&q=90&w=400" alt="spotify image">
+        </div>
+        <div class="images fade">
+          <div class="number">3 / 5</div>
+          <img class="password" src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2019/02/shutterstock_640477099-compressor.jpg" alt="password manager image">
+        </div>
+        <div class="images fade">
+          <div class="number">4 / 5</div>
+          <img class="pacman" src="https://i.gifer.com/T7n.gif" alt="pacman image">
+        </div>
+        <div class="images fade">
+          <div class="number">5 / 5</div>
+          <img class="spam" src="http://penplusbytes.org/wp-content/uploads/2019/08/spam.jpg" alt="spam">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
     </div>
 
 
@@ -97,12 +120,12 @@
       <div class="r">90%</div>
     </div>
   </div>
-    <div class="soft-skills">
+    <!-- <div class="soft-skills">
       <p>COMMUNICATION</p>
       <p>COLLABORATION</p>
       <p>DILIGENCE</p>
       <p>EFFICIENCY</p>
-    </div>
+    </div> -->
     <div class="skills-ranking-two">
     <p>Artificial Intelligence</p>
     <div class="skills-container">
@@ -141,8 +164,11 @@
     <div id="contact-me" class="last-container-two">
     <h2 class= "contact">CONTACT ME</h2>
     <div>
-
-
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/citlallievillarreal/"><img class="linkedin" src="https://www.glintinc.com/wp-content/uploads/2017/09/casestudy-linkedin-logo-grey.png" alt="linkedin logo"></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/citlallivillarreal"><img class="github" src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png" alt="github logo"></a>
+      <a target="_blank" rel="noopener noreferrer" href="mailto:citlallivillarreal@outlook.com"><img class="email" src="https://cdn3.iconfinder.com/data/icons/simple-toolbar/512/email_mail_envelope_letter_send_inbox_newsletter-512.png" alt="email logo"></a>
     </div>
     </div>
 </html>
+<script src="carousel.js"></script>
+</body>
