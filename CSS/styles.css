@@ -135,7 +135,8 @@ h2 {
   margin-left: 42%;
   margin-top: 10%;
   margin-right: 10%;
-  color: #7DF9FF;
+  color: white;
+  /* #7DF9FF; */
   font-size: 150%;
   font-family: 'Shippori Mincho B1', serif;
 }
@@ -327,7 +328,8 @@ h2 {
 }
 .skills-ranking p {
   font-size: 150%;
-  color: #7DF9FF;
+  color: white;
+  /* #7DF9FF; */
 }
 
 .Python {
@@ -422,7 +424,8 @@ h2 {
 }
 .skills-ranking-two p {
   font-size: 150%;
-  color: #7DF9FF;
+  color: white;
+   /* #7DF9FF; */
 
 }
 
